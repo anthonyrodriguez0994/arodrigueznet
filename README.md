@@ -1,3 +1,4 @@
 Welcome to my README!
 
-I hope to make it a good one.
+This website is solely for personal use.
+I plan to showcase any current and future projects here.
