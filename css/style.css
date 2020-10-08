@@ -20,13 +20,46 @@ body {
 }
 .main-header {
   margin: 0px auto;
+  padding: 0px;
   position: fixed;
   padding: 5px 20px;
   width: 100%;
   overflow: hidden;
   top: 0;
-  border: 2px solid #000;
-  background-color: #ccc;
+  /* border: 2px solid #000; */
+  background-color: #fff;
+}
+.topbox {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topbox a {
+  color: #000;
+}
+
+.topbox li {
+  list-style: none;
+  padding: 20px;
+  /* float: right; */
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+.topbox#top-box-1 {
+  float: left; 
+}
+.topbox#top-box-2 {
+  float: right;
+}
+.topbox#top-box-3 {
+  float: right;
+}
+.topbox#top-box-4 {
+  float: right;
+}
+
+.topbox a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 .container {
   max-width: 960px;
@@ -41,7 +74,6 @@ body {
   font-size: 20px;
 }
 #main {
-
   border: 2px black solid;
   margin: 20px;
   padding: 10px;
@@ -49,8 +81,8 @@ body {
 }
 /* Bottom Nav Bar */
 .footer {
-  border-top: 2px solid #fff;
-  background-color: #ccc;
+  border-top: 2px solid #ccc;
+  background-color: #fff;
   padding: 5px 20px;
   margin: 0px auto;
   overflow: hidden;
@@ -68,10 +100,14 @@ body {
 }
 #footer ul {
   margin: 0;
-  padding: 0 0;
+  padding: 0;
   list-style-type: none;
 }
+#footer li {
+  padding: 0 10px;
+  float: left;
+}
 #footer p{
-
+  float: right;
   margin: 0;
 }
