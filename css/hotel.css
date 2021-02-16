@@ -82,6 +82,12 @@ p {
 .clr {
   clear: both;
 }
+.l-heading { font-size: 40px; }
+
+/* Padding */
+.py-1 { padding: 10px 0 }
+.py-2 { padding: 20px 0 }
+.py-3 { padding: 30px 0 }
 
 /* Navbar */
 #navbar {
@@ -119,6 +125,7 @@ p {
   background: #444;
   color: #f7c08a;
 }
+
 /* Showcase */
 #showcase {
   background: url('../img/Hotel/showcase.jpg') no-repeat center center/cover;
@@ -140,6 +147,7 @@ p {
   padding-bottom: 20px;
   line-height: 1.7em;
 }
+
 /* Home Info */
 #home-info {
   height: 400px;
@@ -174,6 +182,54 @@ p {
 .box i {
   margin-bottom: 10px;
 }
+
+/* About */
+#about-info .about-content {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+#about-info .about-img {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .about-img img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* About Testimonials */
+#about-testimonials {
+  height: 600px;
+  background: url('../img/Hotel/test-bg.jpg') no-repeat center center/cover ;
+  padding-top: 100px;
+}
+#about-testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#about-testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#about-testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
 /* Footer */
 #main-footer {
 
